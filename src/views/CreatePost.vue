@@ -29,11 +29,11 @@
 </template>
 
 <script>
-import BlogCoverPreview from "../components/BlogCoverPreview";
-import Loading from "../components/Loading";
+import BlogCoverPreview from "@/components/BlogCoverPreview";
+import Loading from "@/components/Loading";
 import firebase from "firebase/app";
 import "firebase/storage";
-import db from "../firebase/firebaseInit";
+import db from "@/firebase/firebaseInit";
 import Quill from "quill";
 window.Quill = Quill;
 const ImageResize = require("quill-image-resize-module").default;

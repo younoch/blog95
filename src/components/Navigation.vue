@@ -2,7 +2,7 @@
   <header>
     <nav class="container">
       <div class="branding">
-        <router-link class="header" :to="{ name: 'Home' }">FireBlogs</router-link>
+        <router-link class="header" :to="{ name: 'Home' }">Blog95</router-link>
       </div>
       <div class="nav-links">
         <ul v-show="!mobile">
@@ -57,10 +57,10 @@
 </template>
 
 <script>
-import menuIcon from "../assets/Icons/bars-regular.svg";
-import userIcon from "../assets/Icons/user-alt-light.svg";
-import adminIcon from "../assets/Icons/user-crown-light.svg";
-import signOutIcon from "../assets/Icons/sign-out-alt-regular.svg";
+import menuIcon from "@/assets/Icons/bars-regular.svg";
+import userIcon from "@/assets/Icons/user-alt-light.svg";
+import adminIcon from "@/assets/Icons/user-crown-light.svg";
+import signOutIcon from "@/assets/Icons/sign-out-alt-regular.svg";
 import firebase from "firebase/app";
 import "firebase/auth";
 

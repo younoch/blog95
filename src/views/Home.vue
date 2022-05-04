@@ -13,16 +13,16 @@
     <div v-if="!user" class="updates">
       <div class="container">
         <h2>never miss a post. Register for your free account today!</h2>
-        <router-link class="router-button" to="#"> Register for FireBlogs <Arrow class="arrow arrow-light" /> </router-link>
+        <router-link class="router-button" to="#"> Register for Blog95 <Arrow class="arrow arrow-light" /> </router-link>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import BlogPost from "../components/BlogPost";
-import BlogCard from "../components/BlogCard";
-import Arrow from "../assets/Icons/arrow-right-light.svg";
+import BlogPost from "@/components/BlogPost";
+import BlogCard from "@/components/BlogCard";
+import Arrow from "@/assets/Icons/arrow-right-light.svg";
 export default {
   name: "Home",
   components: { BlogPost, BlogCard, Arrow },

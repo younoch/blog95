@@ -3,7 +3,7 @@
     <div class="container">
       <div class="left">
         <div class="col-1">
-          <router-link class="header" :to="{ name: 'Home' }">FireBlogs</router-link>
+          <router-link class="header" :to="{ name: 'Home' }">Blog95</router-link>
           <ul>
             <li>
               <a href="#"><youTube class="svg-icon"/></a>

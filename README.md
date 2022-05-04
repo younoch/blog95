@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This is the completed source code for blog95. This application is built with Vue.js (version 2) & Firebase. This video was created for Traversy Media, you can watch the tutorial [here:](https://www.youtube.com/watch?v=ISv22NNL-aE).
+This is the completed source code for blog95. This application is built with Vue.js (version 2) & Firebase.
 
 ## Project setup
 

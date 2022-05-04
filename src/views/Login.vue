@@ -5,7 +5,7 @@
         Don't have an account?
         <router-link class="router-link" :to="{ name: 'Register' }">Register</router-link>
       </p>
-      <h2>Login to FireBlogs</h2>
+      <h2>Login to Blog95</h2>
       <div class="inputs">
         <div class="input">
           <input type="text" placeholder="Email" v-model="email" />
@@ -28,8 +28,8 @@
 </template>
 
 <script>
-import email from "../assets/Icons/envelope-regular.svg";
-import password from "../assets/Icons/lock-alt-solid.svg";
+import email from "@/assets/Icons/envelope-regular.svg";
+import password from "@/assets/Icons/lock-alt-solid.svg";
 import firebase from "firebase/app";
 import "firebase/auth";
 export default {
