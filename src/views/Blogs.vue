@@ -1,7 +1,7 @@
 <template>
   <div class="blog-card-wrap">
     <div class="blog-cards container">
-      <div v-if="profileAdmin" class="toggle-edit">
+      <div v-if="user" class="toggle-edit">
         <span>Toggle Editing Post</span>
         <input type="checkbox" v-model="editPost" />
       </div>
@@ -29,6 +29,9 @@ export default {
     },
     profileAdmin() {
       return this.$store.state.profileAdmin;
+    },
+        user() {
+      return this.$store.state.user;
     },
   },
   beforeDestroy() {

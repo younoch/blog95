@@ -88,7 +88,7 @@ const routes = [
     meta: {
       title: "Create Post",
       requiresAuth: true,
-      requiresAdmin: true,
+      // requiresAdmin: true,
     },
   },
   {
@@ -98,7 +98,7 @@ const routes = [
     meta: {
       title: "Preview Blog Post",
       requiresAuth: true,
-      requiresAdmin: true,
+      // requiresAdmin: true,
     },
   },
   {

@@ -1,6 +1,6 @@
 <template>
   <div class="reset-password">
-    <Modal v-if="modalActive" :modalMessage="modalMessage" v-on:close-modal="closeModal" />
+    <Modal v-if="modalActive" :modalMessage="modalMessage" @close-modal="closeModal" />
     <Loading v-if="loading" />
     <div class="form-wrap">
       <form class="reset">
