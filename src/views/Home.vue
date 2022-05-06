@@ -42,6 +42,7 @@ export default {
       return this.$store.getters.blogPostsFeed;
     },
     blogPostsCards() {
+      // console.log('Hellow World',this.$store.getters.blogPostsCards);
       return this.$store.getters.blogPostsCards;
     },
     user() {

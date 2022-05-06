@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "fireblogsyt-92263"
-  }
+    "default": "fireblogsyt-92263",
+    "staging": "blog95-53088"
+  },
+  "targets": {}
 }
