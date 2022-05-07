@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "vue-cli-service start",
     "serve": "vue-cli-service serve",
+    "start": "vue-cli-service start",
+    "inspect": "vue-cli-service inspect",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "heroku-postbuild": "npm run build"
