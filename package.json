@@ -2,11 +2,8 @@
   "name": "blog95",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "14.17.3"
-  },
-  
   "scripts": {
+    "start": "vue-cli-service start",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
@@ -35,5 +32,8 @@
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
+  },
+  "engines": {
+    "node": "14.17.3"
   }
 }
